@@ -25,13 +25,4 @@ export default {
         border: 0;
         box-sizing: border-box;
     }
-    html,
-    body {
-        height: 100%;       
-    }
-    .app {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-    }
 </style>
