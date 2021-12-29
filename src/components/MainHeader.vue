@@ -1,13 +1,13 @@
 <template>
     <section class="header-fullscreen">
         <div class="header-body">
-            <a href="#" class="header-logo">GM</a>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Skills</a></li>
                 <li><a href="#">Experience</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#">Contact me</a></li>
+                <li><a href="#">Blog</a></li>
             </ul>
         </div>
         <div class="header-description">
@@ -27,35 +27,27 @@ export default {
     .header-fullscreen {
         display: flex;
         flex-direction: column;
-        background-image: url("../assets/header.jpg");
+        background-image: url("../assets/header_1.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         min-height: 100vh;
     }
 
     .header-body {
-        display: flex;
-        justify-content: space-between;
         font-size: 24px;
         padding: 20px;
     }
-    .header-body ul {
-        display: flex;
-        list-style: none;
-    }
-    .header-body ul li {
-        margin-left: 20px;
-    }
-    .header-body ul li a {
+    .header-body a {
         text-decoration: none;
         color: white;
         padding: 6px 15px;
         border-radius: 20px;
+        opacity: 0.5;
     }
-    .header-body ul li a:hover,
-    .header-body ul li a:active {
-        background: white;
-        color: inherit;
+    .header-body ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
     }
 
     .header-description {
@@ -65,6 +57,7 @@ export default {
         transform: translate(-50%, -50%);
     }
     .header-title {
+        color: white;
         font-size: 60px;
         opacity: 0.5;
     }
