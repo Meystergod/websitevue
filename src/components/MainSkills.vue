@@ -4,13 +4,19 @@
     </div>
     <div class="main-container">
         <div class="back-arrow">
-            s
+            <a href="" class="back-arrow-link">
+                <img src="../assets/left-arrow.png">
+            </a>
         </div>
-        <custom-skill class="skill"/>
-        <custom-skill class="skill"/>
-        <custom-skill class="skill"/>
+        <custom-skill skill="C++" description="Programing on C++" percent="70" class="skill"/>
+        <custom-skill skill="Python" description="Programing on Python" percent="60" class="skill"/>
+        <custom-skill skill="Vue" description="Programing on Vue" percent="50" class="skill"/>
+        <custom-skill skill="TypeScript" description="Programing on TypeScript" percent="40" class="skill"/>
+        <custom-skill skill="С" description="Programing on С" percent="70" class="skill"/>
         <div class="forward-arrow">
-            s
+            <a href="" class="forward-arrow-link">
+                <img src="../assets/right-arrow.png">
+            </a>
         </div>
     </div>
 </template>
@@ -50,5 +56,9 @@ export default {
     .forward-arrow {
         text-align: center;
         flex: 1;
+    }
+    img {
+        width: 50%;
+        height: auto;
     }
 </style>
