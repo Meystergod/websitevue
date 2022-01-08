@@ -40,6 +40,7 @@ export default {
         justify-content: center;
         margin-left: 5%;
         width: 90%;
-        font-size: 22px;
+        font-size: 18px;
+        line-height: 130%;
     }
 </style>

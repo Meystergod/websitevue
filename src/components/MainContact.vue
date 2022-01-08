@@ -4,16 +4,16 @@
     </div>
     <div class="icons">
         <a href="https://vk.com/id142476579" class="link-icon-vk">
-            <img src="../assets/vk.png" class="icon-vk">
+            <img src="../assets/social/vk.png" class="icon-vk">
         </a>
         <a href="#" class="link-icon-tg">
-            <img src="../assets/telegram.png" class="icon-tg">
+            <img src="../assets/social/telegram.png" class="icon-tg">
         </a>
         <a href="#" class="link-icon-gmail">
-            <img src="../assets/gmail.png" class="icon-gmail">
+            <img src="../assets/social/gmail.png" class="icon-gmail">
         </a>
         <a href="#" class="link-icon-linkedin">
-            <img src="../assets/linkedin.png" class="icon-linkedin">
+            <img src="../assets/social/linkedin.png" class="icon-linkedin">
         </a>
     </div>
 </template>

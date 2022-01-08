@@ -27,14 +27,14 @@ export default {
     .header-fullscreen {
         display: flex;
         flex-direction: column;
-        background-image: url("../assets/header_1.jpg");
+        background-image: linear-gradient(rgba(0,0,0,.530),rgba(0,0,0,.500)), url("../assets/header_1.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         min-height: 100vh;
     }
 
     .header-body {
-        font-size: 24px;
+        font-size: 16px;
         padding: 20px;
     }
     .header-body a {
@@ -42,7 +42,6 @@ export default {
         color: white;
         padding: 6px 15px;
         border-radius: 20px;
-        opacity: 0.5;
     }
     .header-body ul {
         display: flex;
@@ -58,7 +57,6 @@ export default {
     }
     .header-title {
         color: white;
-        font-size: 60px;
-        opacity: 0.5;
+        font-size: 48px;
     }
 </style>

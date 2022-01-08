@@ -52,16 +52,16 @@ export default {
         margin: auto;
         padding-top: 40px;
         padding-bottom: 40px;
-        width: 75%;
-        font-size: 18px;
+        width: 80%;
     }
     img {
-        width: 25%;
+        width: 20%;
         height: auto;
-        border-radius: 20%;
+        border-radius: 30%;
     }
     p {
         text-align: center;
-        font-size: 22px;
+        font-size: 18px;
+        line-height: 130%;
     }
 </style>

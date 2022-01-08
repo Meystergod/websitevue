@@ -13,7 +13,6 @@ export default {
 
 <style scoped>
     .header {
-        font-size: 60px;
-        opacity: 0.5;
+        font-size: 48px;
     }
 </style>
