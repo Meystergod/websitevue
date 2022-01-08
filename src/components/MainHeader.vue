@@ -10,9 +10,17 @@
                 <li><a href="#">Blog</a></li>
             </ul>
         </div>
-        <div class="header-description">
-            <h class="header-title">Gleb Malakhov</h>
-            <a href="" class="header-skip-link"></a>
+        <div class="header-information">
+            <div class="header-title-container">
+                <h class="header-title">
+                    Gleb Malakhov
+                </h>
+            </div>
+            <div class="header-description-container">
+                <p class="header-description-1">
+                    C/C++ developer over 3 years
+                </p>
+            </div>
         </div>
     </section>
 </template>
@@ -28,6 +36,7 @@ export default {
         display: flex;
         flex-direction: column;
         background-image: linear-gradient(rgba(0,0,0,.530),rgba(0,0,0,.500)), url("../assets/header_1.jpg");
+        background-attachment: fixed;
         background-size: cover;
         background-repeat: no-repeat;
         min-height: 100vh;
@@ -49,7 +58,7 @@ export default {
         justify-content: space-between;
     }
 
-    .header-description {
+    .header-information {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -58,5 +67,10 @@ export default {
     .header-title {
         color: white;
         font-size: 48px;
+    }
+    .header-description-container {
+        color: white;
+        font-size: 20px;
+        text-align: center;
     }
 </style>
