@@ -34,7 +34,7 @@
 <script>
 import CustomHeader from './CustomHeader.vue'
 export default {
-    name: 'MainAbout',
+    name: "MainAbout",
     components: {
         CustomHeader
     }

@@ -2,27 +2,16 @@
     <div class="my-skills-header">
         <custom-header title="My skills"/>
     </div>
-    <div class="skills">
-        <custom-skill title="C++" info="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged."/>
-        <custom-skill title="Vue" info="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged."/>
-        <custom-skill title="Python" info="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged."/>
-        <custom-skill title="OpenCV" info="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged."/>
-        <custom-skill title="FFmpeg" info="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged."/>
+    <div class="main-container">
+        <div class="back-arrow">
+            s
+        </div>
+        <custom-skill class="skill"/>
+        <custom-skill class="skill"/>
+        <custom-skill class="skill"/>
+        <div class="forward-arrow">
+            s
+        </div>
     </div>
 </template>
 
@@ -30,10 +19,9 @@
 import CustomHeader from './CustomHeader.vue'
 import CustomSkill from './CustomSkill.vue'
 export default {
-    name: "MainSkills",
+    name: "MainSkill",
     components: {
-        CustomHeader,
-        CustomSkill
+        CustomHeader, CustomSkill
     }
 }
 </script>
@@ -43,9 +31,24 @@ export default {
         text-align: center;
         padding-bottom: 40px;
     }
-    .skills {
+    .main-container {
+        width: 75%;
         display: flex;
-        flex-direction: column;
-        
+        flex-direction: row;
+        margin: auto;
+        padding-bottom: 40px;
+        align-items: center;
+    }
+    .skill {
+        text-align: center;
+        flex: 9;
+    }
+    .back-arrow {
+        text-align: center;
+        flex: 1;
+    }
+    .forward-arrow {
+        text-align: center;
+        flex: 1;
     }
 </style>
