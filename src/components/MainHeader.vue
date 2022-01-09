@@ -2,11 +2,10 @@
     <section class="header-fullscreen">
         <div class="header-body">
             <ul>
-                <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Skills</a></li>
                 <li><a href="#">Experience</a></li>
-                <li><a href="#">Contact me</a></li>
+                <li><a href="#">Links</a></li>
                 <li><a href="#">Blog</a></li>
             </ul>
         </div>

@@ -6,11 +6,11 @@
                     <div class="percent-number">{{percent}}<span>%</span></div>
                 </div>
             </div>
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+            <svg>
                 <defs>
                     <linearGradient id="GradientColor">
-                        <stop offset="0%" stop-color="#e91e63" />
-                        <stop offset="100%" stop-color="#673ab7" />
+                        <stop offset="0%" stop-color="#abc4ff"/>
+                        <stop offset="100%" stop-color="#d7e3fc"/>
                     </linearGradient>
                 </defs>
                 <circle cx="80" cy="80" r="70" stroke-linecap="round" :style="style"/>
@@ -51,7 +51,7 @@ export default {
         width: 160px;
         height: 160px;
         border-radius: 50%;
-        box-shadow: 6px 6px 10px -1px rgba(251, 176, 255, 0.7),
+        box-shadow: 6px 6px 10px -1px rgba(176, 195, 208, 0.7),
                     -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
         padding: 20px;
     }
@@ -62,7 +62,7 @@ export default {
         width: 120px;
         height: 120px;
         border-radius: 50%;
-        box-shadow: inset 4px 4px 6px -1px rgba(251, 176, 255, 0.7),
+        box-shadow: inset 4px 4px 6px -1px rgba(119, 137, 148, 0.7),
                     inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
                     -0.5px -0.5px 0px rgba(255, 255, 255, 1),
                     0.5px 0.5px 0px rgba(255, 255, 255, 0.15),
@@ -86,7 +86,10 @@ export default {
     }
     svg {
         position: absolute;
+        width: 160px;
+        height: 160px;
         top: 0;
         left: 0;
+        opacity: 0.8;
     }
 </style>

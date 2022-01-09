@@ -3,21 +3,20 @@
         <custom-header title="My skills"/>
     </div>
     <div class="main-container">
-        <div class="back-arrow">
+        <!-- <div class="back-arrow">
             <a href="" class="back-arrow-link">
                 <img src="../assets/left-arrow.png">
             </a>
-        </div>
-        <custom-skill skill="C++" description="Programing on C++" percent="70" class="skill"/>
-        <custom-skill skill="Python" description="Programing on Python" percent="60" class="skill"/>
-        <custom-skill skill="Vue" description="Programing on Vue" percent="50" class="skill"/>
-        <custom-skill skill="TypeScript" description="Programing on TypeScript" percent="40" class="skill"/>
-        <custom-skill skill="С" description="Programing on С" percent="70" class="skill"/>
-        <div class="forward-arrow">
+        </div> -->
+        <custom-skill skill="C/C++" description="Programing on C++" percent="80" class="skill"/>
+        <custom-skill skill="Python" description="Programing on Python" percent="70" class="skill"/>
+        <custom-skill skill="Vue" description="Programing on Vue" percent="40" class="skill"/>
+        <custom-skill skill="JS/TS" description="Programing on JavaScript and TypeScript" percent="50" class="skill"/>
+        <!-- <div class="forward-arrow">
             <a href="" class="forward-arrow-link">
                 <img src="../assets/right-arrow.png">
             </a>
-        </div>
+        </div> -->
     </div>
 </template>
 
@@ -49,16 +48,16 @@ export default {
         text-align: center;
         flex: 9;
     }
-    .back-arrow {
+    img {
+        width: 50%;
+        height: auto;
+    }
+    /* .back-arrow {
         text-align: center;
         flex: 1;
     }
     .forward-arrow {
         text-align: center;
         flex: 1;
-    }
-    img {
-        width: 50%;
-        height: auto;
-    }
+    } */
 </style>
